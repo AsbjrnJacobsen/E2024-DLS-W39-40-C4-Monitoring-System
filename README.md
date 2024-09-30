@@ -46,3 +46,6 @@ No level 4 diagrams have been made.
 <p align="center">
   <img src="img/3-3.png" alt=""/>
 </p>
+<p align="center">
+  <img src="img/3-4.png" alt=""/>
+</p>
