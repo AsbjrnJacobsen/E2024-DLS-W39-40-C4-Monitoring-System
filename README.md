@@ -32,20 +32,20 @@ Below are the C4 diagrams, outlining the design of the system.
 No level 4 diagrams have been made.
 
 <p align="center">
-  <img src="img/1.png" alt=""/>
+  <img src="img/1.png" alt="Level 1 - System Context Diagram"/>
 </p>
 <p align="center">
-  <img src="img/2.png" alt=""/>
+  <img src="img/2.png" alt="Level 2 - Container Diagram"/>
 </p>
 <p align="center">
-  <img src="img/3-1.png" alt=""/>
+  <img src="img/3-1.png" alt="Level 3 - Component Diagram"/>
 </p>
 <p align="center">
-  <img src="img/3-2.png" alt=""/>
+  <img src="img/3-2.png" alt="Level 3 - Component Diagram"/>
 </p>
 <p align="center">
-  <img src="img/3-3.png" alt=""/>
+  <img src="img/3-3.png" alt="Level 3 - Component Diagram"/>
 </p>
 <p align="center">
-  <img src="img/3-4.png" alt=""/>
+  <img src="img/3-4.png" alt="Level 3 - Component Diagram"/>
 </p>
