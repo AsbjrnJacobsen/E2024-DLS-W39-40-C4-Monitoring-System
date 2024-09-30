@@ -1,0 +1,21 @@
+﻿services:
+  logging-api:
+    build:
+      context: .
+      dockerfile: LoggingAPI/Dockerfile
+    depends_on:
+      logging-db:
+        condition: service_started
+    ports:
+      - 3001:80
+
+  logging-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      MSSQL_SA_PASSWORD: "Pepsi1234!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - logging-db:/var/opt/mssql
+
+volumes:
+  logging-db:
