@@ -1,12 +1,12 @@
 # Full Monitoring System Design + API Container & DB docker-compose
 This is a compulsory assignment for Development of Large Systems Week 39+40.  
 
-Made by Asbjørn ([github](https://github.com/AsbjrnJacobsen)) & Esben ([github](https://github.com/eldahl))
-
 `In this compulsory assignment you must design a full monitoring system using the C4-modelling framework described in the prepare section of these weeks.
 Furthermore you must also code one of the API-containers from the level 2 diagram that uses a database.`
 
 The C4 Model is to be used to design a monitoring system for external systems, such that metrics, tracing, and logging can be provided as a service.
+
+Made by Asbjørn ([github](https://github.com/AsbjrnJacobsen)) & Esben ([github](https://github.com/eldahl))
 
 # Usage
 Run `docker-compose up`, and use Postman, or another HTTP client to run the following requests:  
