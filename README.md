@@ -13,7 +13,7 @@ Run `docker-compose up`, and use Postman, or another HTTP client to run the foll
 
 ## PostLog | POST
 Posts a log to the Logging API.  
-`http://localhost:3001/api/Logging/PostLog` using request body:
+`http://localhost:8080/api/Logging/PostLog` using request body:
 ```json
 {
     "message": "FATAL! SELF DESTRUCTION IMMINENT",
@@ -23,11 +23,11 @@ Posts a log to the Logging API.
 
 ## GetExample | GET
 Gets an example of a log, for easy formatting assimilation.  
-`http://localhost:3001/api/Logging/GetExample`  
+`http://localhost:8080/api/Logging/GetExample`  
 
 ## GetLogs | GET
 Gets all logs from the database.  
-`http://localhost:3001/api/Logging/GetLogs`  
+`http://localhost:8080/api/Logging/GetLogs`  
 
 # Diagrams
 Below are the C4 diagrams, outlining the design of the system.  
