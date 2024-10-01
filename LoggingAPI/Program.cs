@@ -31,7 +31,9 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-// Apply migrations if there is any new ones
+// ~~Apply migrations if there is any new ones~~
+// No longer needed.
+/*
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -41,6 +43,6 @@ using (var scope = app.Services.CreateScope())
     {
         context.Database.Migrate();
     }
-}
+}*/
 
 app.Run();
