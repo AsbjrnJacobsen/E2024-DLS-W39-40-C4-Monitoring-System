@@ -26,6 +26,8 @@ public class LoggingDbContext : DbContext
             // Columns
             e.Property(x => x.Severity);
             e.Property(x => x.Message);
+            e.Property(x => x.SystemIdentifier);
+            e.Property(x => x.SessionIdentifier);
         });
     }
 }
@@ -35,6 +37,10 @@ public class Log
     [Key]
     [Required]
     public int Id { get; set; }
+    [Required]
+    public Guid SystemIdentifier { get; set; }
+    [Required]
+    public Guid SessionIdentifier { get; set; }
     [Required]
     public SeverityLevel Severity { get; set; } = SeverityLevel.Debug;
     [Required]

@@ -39,7 +39,9 @@ public class LoggingController : Controller
         {
             Id = 0,
             Severity = SeverityLevel.Information,
-            Message = "This is a message"
+            Message = "This is a message",
+            SystemIdentifier = Guid.NewGuid(),
+            SessionIdentifier = Guid.NewGuid()
         };
         return Ok(example);
     }
